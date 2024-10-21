@@ -1,6 +1,13 @@
-# Assignments for UCLA 2024 Fall BE 223A 
+# Predicting survival of hear failure patients using 11 clinical variables 
 
-This repository contains the my code for BE 223A assignments at UCLA. Please see the README files under respective assigmets for further details. Do not copy directly from these files.
+## Environment setup  
+Please install `numpy`, `pandas`, `sklearn`, `seaborn`, `scipy`, `matplotlib`. You can use `pip install` or conda. 
 
-## Assignment 1 
-Predicting survival in heart failure patients using 11 clinical varianbles. 
+## Data preprocessing and exploratory analysis 
+The `preprocessing.ipynb` notebook contains the scripts used for data preprocessing and exploratory analysis. The notebook assumes the original CSV file provided by the instructor to be placed under the current working directory. 
+
+## Modeling 
+See `modeling.ipynb` for all models used in this assignment to predict survival, including logistic regression models, support vector machine models, cox proportional hazards models, and a multi-layer percepton model. 
+
+## Analysis 
+In this assignment, the cox model with ridge regularization was further explored. See `cox_ridge_analysis.ipynb` for this analysis. 
