@@ -9,5 +9,7 @@ The `preprocessing.ipynb` notebook contains the scripts used for data preprocess
 ## Modeling 
 See `modeling.ipynb` for all models used in this assignment to predict survival, including logistic regression models, support vector machine models, cox proportional hazards models, and a multi-layer percepton model. 
 
+For each model, the data were first split into a development and a test set. Then, cross-validation was performed on the development set to determine the optimal hyperparameters. After these hyperparameters were chosen, the model was then trained on the entire developement set. Finally, the same model was applied to the held-out test set, and test set performance was printed. 
+
 ## Analysis 
 In this assignment, the cox model with ridge regularization was further explored. See `cox_ridge_analysis.ipynb` for this analysis. 
