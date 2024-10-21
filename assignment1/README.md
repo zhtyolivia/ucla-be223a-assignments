@@ -1,4 +1,4 @@
-# Predicting survival of hear failure patients using 11 clinical variables 
+# Predicting survival of hear failure patients using clinical variables 
 
 ## Environment setup  
 Please install `numpy`, `pandas`, `sklearn`, `seaborn`, `scipy`, `matplotlib`. You can use `pip install` or conda. 
